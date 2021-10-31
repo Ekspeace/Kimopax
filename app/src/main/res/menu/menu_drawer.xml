@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/info"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/projects"
+            android:icon="@drawable/project"
+            android:title="Projects" />
+        <item
+            android:id="@+id/directors"
+            android:icon="@drawable/leaders"
+            android:title="Directors" />
+        <item
+            android:id="@+id/team"
+            android:icon="@drawable/team"
+            android:title="Teams" />
+    <item
+        android:id="@+id/contact_us"
+        android:icon="@drawable/communication"
+        android:title="Contact Us" />
+
+</menu>

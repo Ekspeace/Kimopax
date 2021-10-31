@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "798175354893",
+    "project_id": "kimopax-31c72",
+    "storage_bucket": "kimopax-31c72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798175354893:android:2027de71b717043758f544",
+        "android_client_info": {
+          "package_name": "com.ekspeace.kimopax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798175354893-3e6one39dr7pc3ar43on1l05cf7iatha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw8aQ3U69jG8UANJ8OrNWh28RZuYvWKU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798175354893-3e6one39dr7pc3ar43on1l05cf7iatha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

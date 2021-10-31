@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Kimopax" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/icon_color</item>
+        <item name="colorPrimaryVariant">@color/grey_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/icon_color</item>
+        <item name="colorSecondaryVariant">@color/icon_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorOnSecondary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="buttonBorder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="buttonColor" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/icon_color</item>
+    </style>
+
+    <style name="navText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/tahoma</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kimopax</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+    <string name="About">Kimopax is a company rendering specialized services in selected earth and environmental sciences, engineering disciplines and related project management functions. We aspire to be the leading service providers in our area of specialty, to inspire, develop, support innovative and exceptional solutions that enhance life in the changing environment. <br /> <br />\n\nOur service among others include hydrogeology, hydrology, environmental services, environmental impact assessments, , mineral exploration and exploration project management, geological modelling, ore resource evaluations and estimations, geotechnical investigations, waste management, mining and mineral processing services.</string>
+    <string name="Work">We inspire, develop, and support innovative and excepectional solutions that enhance life changing environment
+        <br /> <br />\n\nOver the years Kimopax has built an amazing team of professionals who are well trained and well qualified from various universities across the country. We ensure that every project is executed with a high level of professionalism and quality. We strive to become the best choice service provider in South Africa and the world by creating a differentiated experience capitalizing on providing highly quality solutions by excelling in process, challenging boundaries while providing a cost effective solutions
+</string>
+    <string name="Values">Passion<br />\nQuality<br />\nIntegrity<br />\nCourage<br />\nInnovation<br />\nAccountability </string>
+</resources>

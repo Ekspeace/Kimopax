@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pop_up_cardView"
+        android:layout_marginHorizontal="5dp"
+        app:cardBackgroundColor="@color/grey_500"
+        android:layout_alignParentTop="true"
+        app:cardCornerRadius="8dp"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+                <TextView
+                    android:id="@+id/dialog_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/text_color"
+                    android:fontFamily="@font/lato_bold"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/dialog_icon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    app:tint="@color/icon_color" />
+
+                <TextView
+                    android:id="@+id/dialog_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/tahoma"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/dialog_confirm"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="36dp"
+                        android:background="@drawable/button_color"
+                        android:fontFamily="@font/lato_black"
+                        android:text="Try again"
+                        android:textAllCaps="false"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:theme="@style/buttonColor" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/dialog_close"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="36dp"
+                        android:background="@drawable/button_color"
+                        android:fontFamily="@font/lato_black"
+                        android:text="Cancel"
+                        android:layout_margin="10dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/text_color"
+                        android:textSize="12sp"
+                        android:theme="@style/buttonBorder"
+                        app:strokeColor="@color/icon_color"
+                        app:strokeWidth="1dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
